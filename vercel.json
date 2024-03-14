@@ -6,12 +6,6 @@
         "use": "@now/node"
       }
     ],
-    "routes": [
-      {
-        "src": "/",
-        "dest": "/api/test.js"
-      }
-    ],
     "headers": [
       {
         "source": "/api/(.*)",
